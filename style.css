@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+/*Agrego CSS al header*/
+
 .fondoStoica {
   width: 100%;
   height: 250px;
@@ -160,6 +163,8 @@ main {
   border-radius: 4px;
   transition: 1.1s;
 }
+
+/*Aplico Responsive Mobile*/
 
 @media only screen and (max-width: 450px)
 {
