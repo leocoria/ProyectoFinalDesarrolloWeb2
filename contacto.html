@@ -44,8 +44,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
     <title>Stoica</title>
   </head>
   <body>
@@ -83,20 +81,79 @@
             <div class="navbar-nav">
               <a class="nav-link linkMenu" href="nosotros.html">Nosotros</a>
               <a class="nav-link linkMenu" href="productos.html">Productos</a>
-              <a class="nav-link active linkMenu" href="ubicacion.html"
+              <a class="nav-link linkMenu" href="ubicacion.html"
                 >¿Dónde estamos?</a
               >
-              <a class="nav-link linkMenu" href="contacto.html">Contacto</a>
+              <a class="nav-link active linkMenu" href="contacto.html"
+                >Contacto</a
+              >
             </div>
           </div>
         </div>
       </nav>
     </header>
 
+    <!--Creo el Main-->
 
-     <!--Creo el footer-->
+    <main>
+      <section>
+        <h1 class="titulo">Contacto</h1>
+        <div class="gridContainerContacto paddingBottom">
+          <div class="flexCentrar">
+            <img
+              src="multimedia/Contacto/sugerencias.png"
+              class="ajustarImgContacto"
+              alt="Imagen Sugerencias"
+            />
+          </div>
+          <div class="flexCentrar">
+            <form action="" class="formulario">
+              <fieldset>
+                <legend class="etiqueta">Formulario de Consulta</legend>
+                <label class="etiqueta" for="Nombre">Nombre:</label>
+                <br />
+                <input type="text" name="Nombre" placeholder="Nombre" />
+                <br />
+                <label class="etiqueta" for="Apellido">Apellido:</label>
+                <br />
+                <input type="text" name="Apellido" placeholder="Apellido" />
+                <br />
+                <label class="etiqueta" for="Correo">Correo electrónico:</label>
+                <br />
+                <input
+                  type="email"
+                  name="Correo"
+                  placeholder="correo@gmail.com"
+                />
+                <br />
+                <label class="etiqueta" for="Telefono">Telefono:</label>
+                <br />
+                <input type="tel" name="Telefono" placeholder="1522224444" />
+                <br />
+                <br />
+                <label class="etiqueta" for="Consulta:">Consulta</label>
+                <br />
+                <textarea name="Consulta" id="" cols="30" rows="10"> </textarea>
+                <br />
+                <br />
+                <input class="boton" type="submit" />
+              </fieldset>
+            </form>
+          </div>
+          <div class="flexCentrar">
+            <img
+              src="multimedia/Contacto/teclado.jpg"
+              class="ajustarImgContacto"
+              alt="Imagen teclado"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
-     <footer>
+    <!--Creo el footer-->
+
+    <footer>
       <div class="gridContainer">
         <h3>Administración</h3>
         <h3>Seguinos</h3>
