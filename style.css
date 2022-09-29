@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
-/*Agrego CSS al header*/
-
 .fondoStoica {
   width: 100%;
   height: 250px;
@@ -56,7 +53,7 @@ footer li {
 .gridContainer {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: auto;
+  grid-template-rows: repeat(2, auto);
 }
 
 .iconosLista {
@@ -90,6 +87,10 @@ main {
   width: 50%;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+}
 .parrafo {
   color: white;
   font-size: 20px;
@@ -164,8 +165,6 @@ main {
   transition: 1.1s;
 }
 
-/*Aplico Responsive Mobile*/
-
 @media only screen and (max-width: 450px)
 {
   .gridContainer{
@@ -185,31 +184,31 @@ main {
     padding-bottom: 20px;
   }
 
-   .titulo{
+  .titulo{
     font-size: 30px;
    } 
+
    .subtituloIndex{
     font-size: 18px;
    }
+
    .inlineMobile{
     list-style: none;
     display: inline;
    }
-   .inlinemobile a{
-    text-decoration: none;
 
-   }
    footer a{
    text-decoration: none;
   }
+
   h3{
     font-size: 18px;
   }
+
   .parrafo{
     font-size: 16px;
   }
-  
-  .ajustarAncho{
-    width: 80%;
-  }
+.ajustarAncho{
+  width: 90%;
+}
 }
