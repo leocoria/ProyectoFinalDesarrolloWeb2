@@ -1,0 +1,45 @@
+footer {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(2, auto);
+    div {
+      .flexCentrar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: wrap;
+        ul {
+          li {
+            .iconosLista {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+    }
+    div {
+      .flexCentrar {
+        nav {
+          ul {
+            li {
+              @media only screen and (max-width: 450px) {
+                .inlineMobile {
+                  list-style: none;
+                  display: inline;
+                }
+              }
+              a {
+                .iconoRedes {
+                  width: 30px;
+                  height: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
