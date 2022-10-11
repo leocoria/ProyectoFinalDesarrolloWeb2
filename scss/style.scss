@@ -1,10 +1,11 @@
 /* SASS */ 
 
+@use 'base/estilosGenerales';
 @use 'components/header';
-@import 'components/footer';
-@import 'components/index';
-@import 'components/nosotros';
-@import 'components/productos';
-@import 'components/ubicacion';
-@import 'components/contacto';
+@use 'components/footer';
+@use 'components/index';
+@use 'components/nosotros';
+@use 'components/productos';
+@use 'components/ubicacion';
+@use 'components/contacto';
 
