@@ -1,0 +1,67 @@
+main {
+  .titulo {
+    color: white;
+    font-size: 40px;
+    animation: jackInTheBox 0.8s;
+    animation-delay: 0.1s;
+    text-align: center;
+    padding: 20px;
+  }
+  .subtituloIndex {
+    color: rgb(202, 150, 6);
+    animation: flash 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    text-align: center;
+    padding: 20px;
+  }
+  section {
+    .flexCentrar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      overflow: wrap;
+      .flexCentrar {
+        .parrafo {
+          color: white;
+          font-size: 20px;
+          width: 80%;
+          text-align: justify;
+        }
+      }
+      .mitad {
+        width: 50%;
+        @media only screen and (max-width: 450px) {
+          width: 100%;
+        }
+      }
+      .alignCenter {
+        align-items: center;
+      }
+      .flexCentrar {
+        .ajustarImg {
+          background-color: white;
+          width: 80%;
+          object-fit: cover;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+        }
+      }
+      .mitad {
+        width: 50%;
+        @media only screen and (max-width: 450px) {
+          width: 100%;
+        }
+      }
+    }
+    .paddingBottom {
+      padding-bottom: 50px;
+    }
+    @media only screen and (max-width: 450px) {
+      .flexColumn {
+        flex-direction: column;
+      }
+    }
+  }
+}

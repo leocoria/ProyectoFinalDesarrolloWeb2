@@ -7,6 +7,11 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: repeat(2, auto);
+    @media only screen and (max-width: 450px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      overflow: wrap;
+    }
     div {
       .flexCentrar {
         width: 100%;
@@ -32,14 +37,15 @@ footer {
       .flexCentrar {
         nav {
           ul {
-            li {
+            .inlineMobile {
               @media only screen and (max-width: 450px) {
-                .inlineMobile {
-                  list-style: none;
-                  display: inline;
-                }
+                list-style: none;
+                display: inline;
               }
               a {
+                @media only screen and (max-width: 450px) {
+                  text-decoration: none;
+                }
                 .iconoRedes {
                   width: 30px;
                   height: 30px;

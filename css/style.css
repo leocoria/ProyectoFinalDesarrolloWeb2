@@ -38,6 +38,13 @@ footer .gridContainer {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: repeat(2, auto);
 }
+@media only screen and (max-width: 450px) {
+  footer .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: wrap;
+  }
+}
 footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
@@ -58,14 +65,83 @@ footer .gridContainer div .flexCentrar ul li .iconosLista {
   height: 16px;
 }
 @media only screen and (max-width: 450px) {
-  footer .gridContainer div .flexCentrar nav ul li .inlineMobile {
+  footer .gridContainer div .flexCentrar nav ul .inlineMobile {
     list-style: none;
     display: inline;
   }
 }
-footer .gridContainer div .flexCentrar nav ul li a .iconoRedes {
+@media only screen and (max-width: 450px) {
+  footer .gridContainer div .flexCentrar nav ul .inlineMobile a {
+    text-decoration: none;
+  }
+}
+footer .gridContainer div .flexCentrar nav ul .inlineMobile a .iconoRedes {
   width: 30px;
   height: 30px;
+}
+
+main .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+main .subtituloIndex {
+  color: rgb(202, 150, 6);
+  animation: flash 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  text-align: center;
+  padding: 20px;
+}
+main section .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+main section .flexCentrar .mitad {
+  width: 50%;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad {
+    width: 100%;
+  }
+}
+main section .flexCentrar .alignCenter {
+  align-items: center;
+}
+main section .flexCentrar .flexCentrar .ajustarImg {
+  background-color: white;
+  width: 80%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+main section .flexCentrar .mitad {
+  width: 50%;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad {
+    width: 100%;
+  }
+}
+main section .paddingBottom {
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexColumn {
+    flex-direction: column;
+  }
 }
 
 /* SASS */
