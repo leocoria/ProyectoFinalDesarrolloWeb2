@@ -1,0 +1,44 @@
+@use "../base/extend";
+
+main {
+  section {
+    .titulo {
+      @extend %titulo;
+    }
+    .gridContainerContacto {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: auto;
+    }
+    .paddingBottom {
+      .flexCentrar {
+        @extend %flexCentrar;
+        .ajustarImgContacto {
+            width: 90%;
+            object-fit: cover;
+          }
+        .noMostrar{  
+          @media only screen and (max-width:450px){
+            display: none;
+          }
+        }  
+      }
+      .flexCentrar {
+        .etiqueta {
+          color: gainsboro;
+        }
+      }
+      .flexCentrar {
+        .ajustarImgContacto {
+          width: 90%;
+          object-fit: cover;
+        }
+        .noMostrar{  
+          @media only screen and (max-width:450px){
+            display: none;
+          }
+        }  
+      }
+    }
+  }
+}

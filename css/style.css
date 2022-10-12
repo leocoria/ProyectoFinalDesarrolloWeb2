@@ -1,3 +1,4 @@
+/* SASS */
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,39 @@ main {
   background-color: black;
 }
 
+main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+
+main section .titulo, main .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main section .titulo, main .titulo {
+    font-size: 30px;
+  }
+}
+
 header .fondoStoica {
   width: 100%;
   height: 250px;
@@ -25,6 +59,39 @@ header nav div a .logoStoica {
 }
 header nav div div div .linkMenu {
   font-size: 20px;
+}
+
+main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+
+main section .titulo, main .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main section .titulo, main .titulo {
+    font-size: 30px;
+  }
 }
 
 footer {
@@ -44,12 +111,6 @@ footer .gridContainer {
     grid-template-columns: 1fr;
     overflow: wrap;
   }
-}
-footer .gridContainer div .flexCentrar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  overflow: wrap;
 }
 footer .gridContainer div .flexCentrar ul {
   list-style: none;
@@ -80,7 +141,26 @@ footer .gridContainer div .flexCentrar nav ul .inlineMobile a .iconoRedes {
   height: 30px;
 }
 
-main .titulo {
+main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+
+main section .titulo, main .titulo {
   color: white;
   font-size: 40px;
   animation: jackInTheBox 0.8s;
@@ -88,6 +168,12 @@ main .titulo {
   text-align: center;
   padding: 20px;
 }
+@media only screen and (max-width: 450px) {
+  main section .titulo, main .titulo {
+    font-size: 30px;
+  }
+}
+
 main .subtituloIndex {
   color: rgb(202, 150, 6);
   animation: flash 4s;
@@ -95,18 +181,6 @@ main .subtituloIndex {
   animation-delay: 1s;
   text-align: center;
   padding: 20px;
-}
-main section .flexCentrar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  overflow: wrap;
-}
-main section .flexCentrar .flexCentrar .parrafo {
-  color: white;
-  font-size: 20px;
-  width: 80%;
-  text-align: justify;
 }
 main section .flexCentrar .mitad {
   width: 50%;
@@ -139,11 +213,214 @@ main section .paddingBottom {
   padding-bottom: 50px;
 }
 @media only screen and (max-width: 450px) {
+  main section .paddingBottom .paddingBottomMobile {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
   main section .flexColumn {
     flex-direction: column;
   }
 }
 
-/* SASS */
+main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+
+main section .titulo, main .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main section .titulo, main .titulo {
+    font-size: 30px;
+  }
+}
+
+main section .flexCentrar .mitad {
+  width: 50%;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad {
+    width: 100%;
+  }
+}
+main section .flexCentrar .mitad .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+main section .flexCentrar .mitad {
+  width: 50%;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad ajustarAncho {
+    width: 90%;
+  }
+}
+main section .flexCentrar .flex {
+  display: flex;
+  justify-content: center;
+}
+main section .flexCentrar .alignCenter {
+  align-items: center;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexColumn {
+    flex-direction: column;
+  }
+}
+
+main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+
+main section .titulo, main .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+  main section .titulo, main .titulo {
+    font-size: 30px;
+  }
+}
+
+main section .flexCentrar .mitad {
+  width: 50%;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .mitad {
+    width: 100%;
+  }
+}
+main section .flexCentrar .paddingBottom {
+  padding-bottom: 50px;
+}
+main section .flexCentrar .flex {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .flex .ajustarAncho {
+    width: 90%;
+  }
+}
+main section .alignCenter {
+  align-items: center;
+}
+@media only screen and (max-width: 450px) {
+  main section {
+    flex-direction: column;
+  }
+}
+
+footer .gridContainer div .flexCentrar, main section .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .paddingBottom .flexCentrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: wrap;
+}
+
+main section .flexCentrar .flexCentrar .parrafo, main section .flexCentrar .paddingBottom .flexCentrar .parrafo {
+  color: white;
+  font-size: 20px;
+  width: 80%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 450px) {
+  main section .flexCentrar .flexCentrar .parrafo, main section .flexCentrar .paddingBottom .flexCentrar .parrafo {
+    font-size: 16px;
+  }
+}
+main .titulo, main section .titulo {
+  color: white;
+  font-size: 40px;
+  animation: jackInTheBox 0.8s;
+  animation-delay: 0.1s;
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  main .titulo, main section .titulo {
+    font-size: 30px;
+  }
+}
+main section .gridContainerContacto {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+}
+main section .paddingBottom .flexCentrar .ajustarImgContacto {
+  width: 90%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 450px) {
+  main section .paddingBottom .flexCentrar .noMostrar {
+    display: none;
+  }
+}
+main section .paddingBottom .flexCentrar .etiqueta {
+  color: gainsboro;
+}
+main section .paddingBottom .flexCentrar .ajustarImgContacto {
+  width: 90%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 450px) {
+  main section .paddingBottom .flexCentrar .noMostrar {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

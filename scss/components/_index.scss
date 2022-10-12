@@ -1,11 +1,9 @@
+@import '../base/extend';
+@import '../base/variables';
+
 main {
   .titulo {
-    color: white;
-    font-size: 40px;
-    animation: jackInTheBox 0.8s;
-    animation-delay: 0.1s;
-    text-align: center;
-    padding: 20px;
+    @extend %titulo;
   }
   .subtituloIndex {
     color: rgb(202, 150, 6);
@@ -20,10 +18,7 @@ main {
       @extend %flexCentrar;
       .flexCentrar {
         .parrafo {
-          color: white;
-          font-size: 20px;
-          width: 80%;
-          text-align: justify;
+          @extend %parrafo;
         }
       }
       .mitad {
@@ -37,7 +32,7 @@ main {
       }
       .flexCentrar {
         .ajustarImg {
-          background-color: white;
+          background-color: $bgColorImg;
           width: 80%;
           object-fit: cover;
           border: 1px solid #ddd;
@@ -54,6 +49,11 @@ main {
     }
     .paddingBottom {
       padding-bottom: 50px;
+      .paddingBottomMobile{
+        @media only screen and (max-width:450px){
+          padding-bottom: 20px;
+        }
+      }
     }
     @media only screen and (max-width: 450px) {
       .flexColumn {

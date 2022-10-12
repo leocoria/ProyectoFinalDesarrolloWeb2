@@ -1,0 +1,42 @@
+@import "../base/extend";
+
+main {
+  .titulo {
+    @extend %titulo;
+  }
+  section {
+    .flexCentrar {
+      .mitad {
+        width: 50%;
+        @media only screen and (max-width: 450px) {
+          width: 100%;
+        }
+      }
+      .paddingBottom {
+        padding-bottom: 50px;
+        .flexCentrar {
+          @extend %flexCentrar;
+          .parrafo {
+            @extend %parrafo;
+          }
+        }
+      }
+      .flex{
+        display: flex;
+        justify-content: center;
+        .ajustarAncho{
+            @media only screen and (max-width:450px){
+                width: 90%;
+            }
+
+        }
+      }
+    }
+    .alignCenter {
+      align-items: center;
+    }
+    @media only screen and (max-width: 450px) {
+      flex-direction: column;
+    }
+  }
+}
