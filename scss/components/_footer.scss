@@ -1,3 +1,5 @@
+@use '../base/extend';
+
 footer {
   border-top: solid white 1px;
   padding-top: 30px;
@@ -14,10 +16,7 @@ footer {
     }
     div {
       .flexCentrar {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        overflow: wrap;
+        @extend %flexCentrar;
         ul {
           list-style: none;
           color: white;

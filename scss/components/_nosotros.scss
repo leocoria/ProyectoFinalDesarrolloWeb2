@@ -1,0 +1,45 @@
+main {
+  .titulo {
+  }
+  section {
+    .flexCentrar {
+      @extend %flexCentrar;
+      .mitad {
+        width: 50%;
+        @media only screen and (max-width: 450px) {
+          width: 100%;
+        }
+        .flexCentrar {
+          .parrafo {
+            color: white;
+            font-size: 20px;
+            width: 80%;
+            text-align: justify;
+            @media only screen and (max-width: 450px) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .mitad {
+        width: 50%;
+        @media only screen and (max-width: 450px) {
+          width: 100%;
+        }
+        iframe{}
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+      }
+      .alignCenter {
+        align-items: center;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      .flexColumn {
+        flex-direction: column;
+      }
+    }
+  }
+}
