@@ -1,0 +1,48 @@
+@import "../base/estilosGenerales";
+@import "../base/variables";
+@import "../base/extend";
+
+main {
+  .titulo {
+    @extend %titulo;
+  }
+  section {
+    .gridContainerProductos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      overflow: wrap;
+      padding: 20px;
+      @media only screen and (max-width: 450px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        overflow: wrap;
+      }
+      .flexCentrar {
+        @extend %flexCentrar;
+        .ajustarImg {
+          background-color: $bgColorImg;
+          width: 80%;
+          object-fit: cover;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+        }
+      }
+      .paddingBottom {
+        padding-bottom: 50px;
+      }
+      .paddingBottom {
+        .flexCentrar {
+          .descProducto {
+            color: gainsboro;
+            font-size: 15px;
+            width: 80%;
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+}
