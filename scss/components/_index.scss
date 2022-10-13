@@ -1,5 +1,5 @@
-@import '../base/extend';
-@import '../base/variables';
+@import "../base/extend";
+@import "../base/variables";
 
 main {
   .titulo {
@@ -49,8 +49,8 @@ main {
     }
     .paddingBottom {
       padding-bottom: 50px;
-      .paddingBottomMobile{
-        @media only screen and (max-width:450px){
+      .paddingBottomMobile {
+        @media only screen and (max-width: 450px) {
           padding-bottom: 20px;
         }
       }

@@ -1,7 +1,8 @@
-@import '../base/extend';
+@import "../base/extend";
 
 main {
   .titulo {
+    @extend %titulo;
   }
   section {
     .flexCentrar {
@@ -28,8 +29,8 @@ main {
         @media only screen and (max-width: 450px) {
           width: 100%;
         }
-        ajustarAncho{
-          @media only screen and (max-width: 450px){
+        ajustarAncho {
+          @media only screen and (max-width: 450px) {
             width: 90%;
           }
         }

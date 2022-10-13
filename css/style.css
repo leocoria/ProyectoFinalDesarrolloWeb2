@@ -301,21 +301,6 @@ main section .flexCentrar .alignCenter {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-h3 {
-  padding: 10px;
-  color: white;
-  text-align: center;
-}
-
-main {
-  background-color: black;
-}
-
 main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar {
   width: 100%;
   display: flex;

@@ -14,14 +14,14 @@ main {
       .flexCentrar {
         @extend %flexCentrar;
         .ajustarImgContacto {
-            width: 90%;
-            object-fit: cover;
-          }
-        .noMostrar{  
-          @media only screen and (max-width:450px){
+          width: 90%;
+          object-fit: cover;
+        }
+        .noMostrar {
+          @media only screen and (max-width: 450px) {
             display: none;
           }
-        }  
+        }
       }
       .flexCentrar {
         .etiqueta {
@@ -33,11 +33,11 @@ main {
           width: 90%;
           object-fit: cover;
         }
-        .noMostrar{  
-          @media only screen and (max-width:450px){
+        .noMostrar {
+          @media only screen and (max-width: 450px) {
             display: none;
           }
-        }  
+        }
       }
     }
   }

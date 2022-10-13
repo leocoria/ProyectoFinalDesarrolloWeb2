@@ -1,4 +1,4 @@
-@import 'listas';
+@import "listas";
 
 %flexCentrar {
   width: 100%;
@@ -9,22 +9,22 @@
 
 %parrafo {
   color: white;
-  font-size: nth($pFontSize, 1 );
+  font-size: nth($pFontSize, 1);
   width: 80%;
   text-align: justify;
   @media only screen and (max-width: 450px) {
-    font-size: nth($pFontSize, 2 );
+    font-size: nth($pFontSize, 2);
   }
 }
 
 %titulo {
   color: white;
-  font-size: nth($tituloFontSize, 1 );
+  font-size: nth($tituloFontSize, 1);
   animation: jackInTheBox 0.8s;
   animation-delay: 0.1s;
   text-align: center;
   padding: 20px;
   @media only screen and (max-width: 450px) {
-    font-size: nth($tituloFontSize , 2 );
+    font-size: nth($tituloFontSize, 2);
   }
 }

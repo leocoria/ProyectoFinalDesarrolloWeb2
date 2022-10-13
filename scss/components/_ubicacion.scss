@@ -21,14 +21,13 @@ main {
           }
         }
       }
-      .flex{
+      .flex {
         display: flex;
         justify-content: center;
-        .ajustarAncho{
-            @media only screen and (max-width:450px){
-                width: 90%;
-            }
-
+        .ajustarAncho {
+          @media only screen and (max-width: 450px) {
+            width: 90%;
+          }
         }
       }
     }
