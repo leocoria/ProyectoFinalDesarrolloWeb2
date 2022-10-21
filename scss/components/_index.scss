@@ -13,7 +13,7 @@ main {
     text-align: center;
     padding: 20px;
   }
-  section {
+  .seccionIndex {
     .flexCentrar {
       @extend %flexCentrar;
       .flexCentrar {
@@ -23,7 +23,7 @@ main {
       }
       .mitad {
         width: 50%;
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 600px) {
           width: 100%;
         }
       }
@@ -42,7 +42,7 @@ main {
       }
       .mitad {
         width: 50%;
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 600px) {
           width: 100%;
         }
       }
@@ -50,12 +50,12 @@ main {
     .paddingBottom {
       padding-bottom: 50px;
       .paddingBottomMobile {
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 600px) {
           padding-bottom: 20px;
         }
       }
     }
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 600px) {
       .flexColumn {
         flex-direction: column;
       }

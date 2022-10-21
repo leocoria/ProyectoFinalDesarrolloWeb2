@@ -14,21 +14,21 @@ main {
   background-color: black;
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -41,7 +41,7 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
@@ -61,21 +61,21 @@ header nav div div div .linkMenu {
   font-size: 20px;
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -88,7 +88,7 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
@@ -141,21 +141,21 @@ footer .gridContainer div .flexCentrar nav ul .inlineMobile a .iconoRedes {
   height: 30px;
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, main section .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -168,7 +168,7 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
@@ -182,18 +182,18 @@ main .subtituloIndex {
   text-align: center;
   padding: 20px;
 }
-main section .flexCentrar .mitad {
+main .seccionIndex .flexCentrar .mitad {
   width: 50%;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad {
+@media only screen and (max-width: 600px) {
+  main .seccionIndex .flexCentrar .mitad {
     width: 100%;
   }
 }
-main section .flexCentrar .alignCenter {
+main .seccionIndex .flexCentrar .alignCenter {
   align-items: center;
 }
-main section .flexCentrar .flexCentrar .ajustarImg {
+main .seccionIndex .flexCentrar .flexCentrar .ajustarImg {
   background-color: white;
   width: 80%;
   object-fit: cover;
@@ -201,43 +201,43 @@ main section .flexCentrar .flexCentrar .ajustarImg {
   border-radius: 4px;
   padding: 5px;
 }
-main section .flexCentrar .mitad {
+main .seccionIndex .flexCentrar .mitad {
   width: 50%;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad {
+@media only screen and (max-width: 600px) {
+  main .seccionIndex .flexCentrar .mitad {
     width: 100%;
   }
 }
-main section .paddingBottom {
+main .seccionIndex .paddingBottom {
   padding-bottom: 50px;
 }
-@media only screen and (max-width: 450px) {
-  main section .paddingBottom .paddingBottomMobile {
+@media only screen and (max-width: 600px) {
+  main .seccionIndex .paddingBottom .paddingBottomMobile {
     padding-bottom: 20px;
   }
 }
-@media only screen and (max-width: 450px) {
-  main section .flexColumn {
+@media only screen and (max-width: 600px) {
+  main .seccionIndex .flexColumn {
     flex-direction: column;
   }
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -250,72 +250,73 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
 }
 
-main section .flexCentrar .mitad {
+main .seccionNosotros .flexCentrar .mitad {
   width: 50%;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad {
+@media only screen and (max-width: 1076px) {
+  main .seccionNosotros .flexCentrar .mitad {
     width: 100%;
   }
 }
-main section .flexCentrar .mitad .flexCentrar .parrafo {
+main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad .flexCentrar .parrafo {
+@media only screen and (max-width: 1076px) {
+  main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
-main section .flexCentrar .mitad {
+main .seccionNosotros .flexCentrar .mitad {
   width: 50%;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad {
+@media only screen and (max-width: 1076px) {
+  main .seccionNosotros .flexCentrar .mitad {
     width: 100%;
   }
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad ajustarAncho {
-    width: 90%;
-  }
+main .seccionNosotros .flexCentrar .mitad .ajustarAncho {
+  width: 90%;
 }
-main section .flexCentrar .flex {
+main .seccionNosotros .flexCentrar .flex {
   display: flex;
   justify-content: center;
 }
-main section .flexCentrar .alignCenter {
+main .seccionNosotros .flexCentrar .alignCenter {
   align-items: center;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexColumn {
+main .seccionNosotros .flexCentrar .paddingBottom {
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 1076px) {
+  main .seccionNosotros .flexColumn {
     flex-direction: column;
   }
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -328,28 +329,36 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
 }
 
-main section .gridContainerProductos {
+main .seccionProductos .gridContainerProductos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   overflow: wrap;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
-  main section .gridContainerProductos {
+@media only screen and (max-width: 600px) {
+  main .seccionProductos .gridContainerProductos {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     overflow: wrap;
   }
 }
-main section .gridContainerProductos .flexCentrar .ajustarImg {
+@media only screen and (min-width: 601px) and (max-width: 1076px) {
+  main .seccionProductos .gridContainerProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    overflow: wrap;
+  }
+}
+main .seccionProductos .gridContainerProductos .flexCentrar .ajustarImg {
   background-color: white;
   width: 80%;
   object-fit: cover;
@@ -357,31 +366,31 @@ main section .gridContainerProductos .flexCentrar .ajustarImg {
   border-radius: 4px;
   padding: 5px;
 }
-main section .gridContainerProductos .paddingBottom {
+main .seccionProductos .gridContainerProductos .paddingBottom {
   padding-bottom: 50px;
 }
-main section .gridContainerProductos .paddingBottom .flexCentrar .descProducto {
+main .seccionProductos .gridContainerProductos .paddingBottom .flexCentrar .descProducto {
   color: gainsboro;
   font-size: 15px;
   width: 80%;
   text-align: justify;
 }
 
-main section .paddingBottom .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, footer .gridContainer div .flexCentrar, main section .flexCentrar, main section .gridContainerProductos .flexCentrar {
+main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .paddingBottom .flexCentrar .parrafo, main section .flexCentrar .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -394,57 +403,55 @@ main section .titulo, main .titulo {
   text-align: center;
   padding: 20px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .titulo, main .titulo {
     font-size: 30px;
   }
 }
 
-main section .flexCentrar .mitad {
+main .seccionUbicacion .flexCentrar .mitad {
   width: 50%;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .mitad {
+@media only screen and (max-width: 1076px) {
+  main .seccionUbicacion .flexCentrar .mitad {
     width: 100%;
   }
 }
-main section .flexCentrar .paddingBottom {
+main .seccionUbicacion .flexCentrar .paddingBottom {
   padding-bottom: 50px;
 }
-main section .flexCentrar .flex {
+main .seccionUbicacion .flexCentrar .flex {
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .flex .ajustarAncho {
-    width: 90%;
-  }
+main .seccionUbicacion .flexCentrar .flex .ajustarAncho {
+  width: 90%;
 }
-main section .alignCenter {
+main .seccionUbicacion .alignCenter {
   align-items: center;
 }
-@media only screen and (max-width: 450px) {
-  main section {
+@media only screen and (max-width: 1076px) {
+  main .seccionUbicacion .flexColumn {
     flex-direction: column;
   }
 }
 
-footer .gridContainer div .flexCentrar, main section .flexCentrar, main section .gridContainerProductos .flexCentrar, main section .flexCentrar .paddingBottom .flexCentrar, main section .paddingBottom .flexCentrar {
+footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main section .paddingBottom .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main section .flexCentrar .flexCentrar .parrafo, main section .flexCentrar .paddingBottom .flexCentrar .parrafo {
+main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 
-@media only screen and (max-width: 450px) {
-  main section .flexCentrar .flexCentrar .parrafo, main section .flexCentrar .paddingBottom .flexCentrar .parrafo {
+@media only screen and (max-width: 600px) {
+  main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -457,7 +464,7 @@ main .titulo, main section .titulo {
   padding: 20px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main .titulo, main section .titulo {
     font-size: 30px;
   }
@@ -471,7 +478,7 @@ main section .paddingBottom .flexCentrar .ajustarImgContacto {
   width: 90%;
   object-fit: cover;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .paddingBottom .flexCentrar .noMostrar {
     display: none;
   }
@@ -483,7 +490,7 @@ main section .paddingBottom .flexCentrar .ajustarImgContacto {
   width: 90%;
   object-fit: cover;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   main section .paddingBottom .flexCentrar .noMostrar {
     display: none;
   }

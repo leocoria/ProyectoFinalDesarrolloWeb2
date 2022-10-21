@@ -4,12 +4,12 @@ main {
   .titulo {
     @extend %titulo;
   }
-  section {
+  .seccionNosotros {
     .flexCentrar {
       @extend %flexCentrar;
       .mitad {
         width: 50%;
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 1076px) {
           width: 100%;
         }
         .flexCentrar {
@@ -18,7 +18,7 @@ main {
             font-size: 20px;
             width: 80%;
             text-align: justify;
-            @media only screen and (max-width: 450px) {
+            @media only screen and (max-width: 1076px) {
               font-size: 16px;
             }
           }
@@ -26,13 +26,11 @@ main {
       }
       .mitad {
         width: 50%;
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 1076px) {
           width: 100%;
         }
-        ajustarAncho {
-          @media only screen and (max-width: 450px) {
-            width: 90%;
-          }
+        .ajustarAncho {
+          width: 90%;
         }
       }
       .flex {
@@ -42,8 +40,11 @@ main {
       .alignCenter {
         align-items: center;
       }
+      .paddingBottom {
+        padding-bottom: 30px;
+      }
     }
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 1076px) {
       .flexColumn {
         flex-direction: column;
       }

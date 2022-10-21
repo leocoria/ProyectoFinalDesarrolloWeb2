@@ -4,11 +4,12 @@ main {
   .titulo {
     @extend %titulo;
   }
-  section {
+  .seccionUbicacion {
     .flexCentrar {
+      @extend %flexCentrar;
       .mitad {
         width: 50%;
-        @media only screen and (max-width: 450px) {
+        @media only screen and (max-width: 1076px) {
           width: 100%;
         }
       }
@@ -25,17 +26,17 @@ main {
         display: flex;
         justify-content: center;
         .ajustarAncho {
-          @media only screen and (max-width: 450px) {
-            width: 90%;
-          }
+          width: 90%;
         }
       }
     }
     .alignCenter {
       align-items: center;
     }
-    @media only screen and (max-width: 450px) {
-      flex-direction: column;
+    .flexColumn {
+      @media only screen and (max-width: 1076px) {
+        flex-direction: column;
+      }
     }
   }
 }

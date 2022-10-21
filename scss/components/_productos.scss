@@ -5,16 +5,22 @@ main {
   .titulo {
     @extend %titulo;
   }
-  section {
+  .seccionProductos {
     .gridContainerProductos {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(3, 1fr);
       overflow: wrap;
       padding: 20px;
-      @media only screen and (max-width: 450px) {
+      @media only screen and (max-width: 600px) {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        overflow: wrap;
+      }
+      @media only screen and (min-width: 601px) and (max-width: 1076px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         overflow: wrap;
       }

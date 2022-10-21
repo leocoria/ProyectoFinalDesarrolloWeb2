@@ -12,7 +12,7 @@
   font-size: nth($pFontSize, 1);
   width: 80%;
   text-align: justify;
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 600px) {
     font-size: nth($pFontSize, 2);
   }
 }
@@ -24,7 +24,7 @@
   animation-delay: 0.1s;
   text-align: center;
   padding: 20px;
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 600px) {
     font-size: nth($tituloFontSize, 2);
   }
 }
