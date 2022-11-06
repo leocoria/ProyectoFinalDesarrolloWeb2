@@ -14,21 +14,21 @@ main {
   background-color: black;
 }
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -57,25 +57,28 @@ header nav div a .logoStoica {
   height: 50px;
   object-fit: cover;
 }
+header nav div a .logoStoica:hover {
+  scale: 1.1;
+}
 header nav div div div .linkMenu {
   font-size: 20px;
 }
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -105,7 +108,7 @@ footer .gridContainer {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: repeat(2, auto);
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   footer .gridContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -125,13 +128,13 @@ footer .gridContainer div .flexCentrar ul li .iconosLista {
   width: 16px;
   height: 16px;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   footer .gridContainer div .flexCentrar nav ul .inlineMobile {
     list-style: none;
     display: inline;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   footer .gridContainer div .flexCentrar nav ul .inlineMobile a {
     text-decoration: none;
   }
@@ -140,22 +143,27 @@ footer .gridContainer div .flexCentrar nav ul .inlineMobile a .iconoRedes {
   width: 30px;
   height: 30px;
 }
+footer .gridContainer div .flexCentrar nav ul .inlineMobile a .iconoRedes:hover {
+  background-color: white;
+  padding: 2px;
+  border-radius: 15px;
+}
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionIndex .flexCentrar, footer .gridContainer div .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -223,21 +231,21 @@ main .seccionIndex .paddingBottom {
   }
 }
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionNosotros .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -262,17 +270,6 @@ main .seccionNosotros .flexCentrar .mitad {
 @media only screen and (max-width: 1076px) {
   main .seccionNosotros .flexCentrar .mitad {
     width: 100%;
-  }
-}
-main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
-  color: white;
-  font-size: 20px;
-  width: 80%;
-  text-align: justify;
-}
-@media only screen and (max-width: 1076px) {
-  main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
-    font-size: 16px;
   }
 }
 main .seccionNosotros .flexCentrar .mitad {
@@ -302,21 +299,21 @@ main .seccionNosotros .flexCentrar .paddingBottom {
   }
 }
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -371,26 +368,36 @@ main .seccionProductos .gridContainerProductos .paddingBottom {
 }
 main .seccionProductos .gridContainerProductos .paddingBottom .flexCentrar .descProducto {
   color: gainsboro;
-  font-size: 15px;
+  font-size: 16px;
   width: 80%;
   text-align: justify;
 }
+@media only screen and (min-width: 601px) and (max-width: 1076px) {
+  main .seccionProductos .gridContainerProductos .paddingBottom .flexCentrar .descProducto {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  main .seccionProductos .gridContainerProductos .paddingBottom .flexCentrar .descProducto {
+    font-size: 18px;
+  }
+}
 
-main section .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar {
+main section .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main .seccionUbicacion .flexCentrar, footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
   text-align: justify;
 }
 @media only screen and (max-width: 600px) {
-  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo {
+  main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo, main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -436,14 +443,14 @@ main .seccionUbicacion .alignCenter {
   }
 }
 
-footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main section .paddingBottom .flexCentrar {
+footer .gridContainer div .flexCentrar, main .seccionIndex .flexCentrar, main .seccionNosotros .flexCentrar, main .seccionProductos .gridContainerProductos .flexCentrar, main .seccionUbicacion .flexCentrar, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar, main section .flexCentrar {
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: wrap;
 }
 
-main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
+main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
   color: white;
   font-size: 20px;
   width: 80%;
@@ -451,7 +458,7 @@ main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionUbicacion .f
 }
 
 @media only screen and (max-width: 600px) {
-  main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
+  main .seccionIndex .flexCentrar .flexCentrar .parrafo, main .seccionNosotros .flexCentrar .mitad .flexCentrar .parrafo, main .seccionUbicacion .flexCentrar .paddingBottom .flexCentrar .parrafo {
     font-size: 16px;
   }
 }
@@ -469,31 +476,43 @@ main .titulo, main section .titulo {
     font-size: 30px;
   }
 }
-main section .gridContainerContacto {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto;
+main section .flexCentrar .divFormulario {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
 }
-main section .paddingBottom .flexCentrar .ajustarImgContacto {
-  width: 90%;
-  object-fit: cover;
+main section .flexCentrar .divFormulario .formulario {
+  width: 100%;
 }
-@media only screen and (max-width: 600px) {
-  main section .paddingBottom .flexCentrar .noMostrar {
-    display: none;
-  }
-}
-main section .paddingBottom .flexCentrar .etiqueta {
+main section .flexCentrar .divFormulario .etiqueta {
   color: gainsboro;
+  font-size: 18px;
+  padding: 5px;
 }
-main section .paddingBottom .flexCentrar .ajustarImgContacto {
-  width: 90%;
-  object-fit: cover;
+main section .flexCentrar .divFormulario .entradaFormulario {
+  width: 100%;
+  padding: 5px;
 }
-@media only screen and (max-width: 600px) {
-  main section .paddingBottom .flexCentrar .noMostrar {
-    display: none;
-  }
+main section .flexCentrar .divFormulario .escribirConsulta {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+}
+main section .flexCentrar .divFormulario .boton {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  color: rgb(3, 3, 71);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 6px;
+}
+main section .flexCentrar .divFormulario .boton:hover {
+  scale: 1.1;
+  color: rgb(202, 150, 6);
+  border: 1px solid white;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

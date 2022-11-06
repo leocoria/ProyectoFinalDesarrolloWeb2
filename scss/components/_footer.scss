@@ -10,7 +10,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: repeat(2, auto);
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 600px) {
       display: grid;
       grid-template-columns: 1fr;
       overflow: wrap;
@@ -38,17 +38,22 @@ footer {
         nav {
           ul {
             .inlineMobile {
-              @media only screen and (max-width: 450px) {
+              @media only screen and (max-width: 600px) {
                 list-style: none;
                 display: inline;
               }
               a {
-                @media only screen and (max-width: 450px) {
+                @media only screen and (max-width: 600px) {
                   text-decoration: none;
                 }
                 .iconoRedes {
                   width: 30px;
                   height: 30px;
+                  &:hover{
+                    background-color: white;
+                    padding: 2px;
+                    border-radius: 15px;
+                  }
                 }
               }
             }

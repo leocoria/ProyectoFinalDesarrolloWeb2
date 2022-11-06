@@ -106,12 +106,13 @@
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
+              <a class="nav-link linkMenu" href="index.html">Inicio</a>
               <a class="nav-link linkMenu" href="nosotros.html">Nosotros</a>
               <a class="nav-link linkMenu" href="productos.html">Productos</a>
               <a class="nav-link linkMenu" href="ubicacion.html"
                 >¿Dónde estamos?</a
               >
-              <a class="nav-link active linkMenu" href="contacto.html"
+              <a class="nav-link linkMenu active" href="contacto.html"
                 >Contacto</a
               >
             </div>
@@ -125,54 +126,59 @@
     <main>
       <section>
         <h1 class="titulo">Contacto</h1>
-        <div class="gridContainerContacto paddingBottom">
-          <div class="flexCentrar">
-            <img
-              src="multimedia/Contacto/sugerencias.png"
-              class="ajustarImgContacto noMostrar"
-              alt="Imagen Sugerencias"
-            />
-          </div>
-          <div class="flexCentrar">
+        <div class="flexCentrar">
+          <div class="divFormulario">
             <form action="" class="formulario">
-              <fieldset>
-                <legend class="etiqueta">Formulario de Consulta</legend>
-                <label class="etiqueta" for="Nombre">Nombre:</label>
-                <br />
-                <input type="text" name="Nombre" placeholder="Nombre" />
-                <br />
-                <label class="etiqueta" for="Apellido">Apellido:</label>
-                <br />
-                <input type="text" name="Apellido" placeholder="Apellido" />
-                <br />
-                <label class="etiqueta" for="Correo">Correo electrónico:</label>
-                <br />
-                <input
-                  type="email"
-                  name="Correo"
-                  placeholder="correo@gmail.com"
-                />
-                <br />
-                <label class="etiqueta" for="Telefono">Telefono:</label>
-                <br />
-                <input type="tel" name="Telefono" placeholder="1522224444" />
-                <br />
-                <br />
-                <label class="etiqueta" for="Consulta:">Consulta</label>
-                <br />
-                <textarea name="Consulta" id="" cols="30" rows="10"> </textarea>
-                <br />
-                <br />
+              <label class="etiqueta" for="Nombre">Nombre:</label>
+
+              <input
+                type="text"
+                name="Nombre"
+                placeholder="Nombre"
+                class="entradaFormulario"
+              />
+
+              <label class="etiqueta" for="Apellido">Apellido:</label>
+
+              <input
+                type="text"
+                name="Apellido"
+                placeholder="Apellido"
+                class="entradaFormulario"
+              />
+
+              <label class="etiqueta" for="Correo">Correo electrónico:</label>
+
+              <input
+                type="email"
+                name="Correo"
+                placeholder="correo@gmail.com"
+                class="entradaFormulario"
+              />
+
+              <label class="etiqueta" for="Telefono">Telefono:</label>
+              <input
+                type="tel"
+                name="Telefono"
+                placeholder="1522224444"
+                class="entradaFormulario"
+              />
+
+              <label class="etiqueta" for="Consulta">Consulta:</label>
+
+              <textarea
+                name="Consulta"
+                id=""
+                cols="30"
+                rows="10"
+                class="escribirConsulta"
+              >
+              </textarea>
+
+              <div class="flexCentrar">
                 <input class="boton" type="submit" />
-              </fieldset>
+              </div>
             </form>
-          </div>
-          <div class="flexCentrar">
-            <img
-              src="multimedia/Contacto/teclado.jpg"
-              class="ajustarImgContacto noMostrar"
-              alt="Imagen teclado"
-            />
           </div>
         </div>
       </section>

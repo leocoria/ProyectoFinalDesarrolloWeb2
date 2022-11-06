@@ -5,37 +5,43 @@ main {
     .titulo {
       @extend %titulo;
     }
-    .gridContainerContacto {
-      display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-template-rows: auto;
-    }
-    .paddingBottom {
-      .flexCentrar {
-        @extend %flexCentrar;
-        .ajustarImgContacto {
-          width: 90%;
-          object-fit: cover;
+    .flexCentrar {
+      @extend %flexCentrar;
+      .divFormulario {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        .formulario {
+          width: 100%;
         }
-        .noMostrar {
-          @media only screen and (max-width: 600px) {
-            display: none;
-          }
-        }
-      }
-      .flexCentrar {
         .etiqueta {
           color: gainsboro;
+          font-size: 18px;
+          padding: 5px;
         }
-      }
-      .flexCentrar {
-        .ajustarImgContacto {
-          width: 90%;
-          object-fit: cover;
+        .entradaFormulario {
+          width: 100%;
+          padding: 5px;
         }
-        .noMostrar {
-          @media only screen and (max-width: 600px) {
-            display: none;
+        .escribirConsulta {
+          width: 100%;
+          resize: none;
+          padding: 10px;
+        }
+        .boton {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          background-color: whitesmoke;
+          color: rgb(3, 3, 71);
+          border-radius: 15px;
+          margin: 20px;
+          padding: 6px;
+          &:hover {
+            scale: 1.1;
+            color: rgb(202, 150, 6);
+            border: 1px solid white;
+            background-color: black;
           }
         }
       }

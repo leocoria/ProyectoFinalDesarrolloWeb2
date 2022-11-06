@@ -14,13 +14,7 @@ main {
         }
         .flexCentrar {
           .parrafo {
-            color: white;
-            font-size: 20px;
-            width: 80%;
-            text-align: justify;
-            @media only screen and (max-width: 1076px) {
-              font-size: 16px;
-            }
+            @extend %parrafo;
           }
         }
       }
